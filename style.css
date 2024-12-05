@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /*horixontailly*/
+    height: 100vh;
+    align-items: center;  /*vertically*/
+}
+.container{
+    background-color:cadetblue;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+
+}
+.inputs{
+    width: 100%;
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 35px;
+    outline: none;
+    border: 1px solid white;
+    background-color: transparent;
+}
+p{
+    font-family: 'sans-serif';
+    font-size: 20px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: black;
+}
+.payment{
+    font-size: 22px;
+    font-weight: 600;
+}
